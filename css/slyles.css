@@ -1,0 +1,257 @@
+/*
+цвет основного текста
+#212121 вторич цвет#757575
+доп цвет #2196F3 голуб акцент
+FFFFFF
+Background #E5E5E5 2 section
+#F5F4FA 3 sectajn bacground
+#2F303A 1 section
+
+*/
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --color-logo: #2196F3;
+    --font-family: 'Raleway', sans-serif;
+    --font-family: 'Roboto', sans-serif;
+}
+
+/*сброс таблиц*/
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+/*_)($%%%%%%%%%%%%%%%%применяется ли фонт фем*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    color: #757575;
+    position: absolute;
+}
+/*title heder*/
+.header-main {
+    background-color: white;
+}
+.section-title {
+    color: #212121;
+}
+/*логотип*/
+.logo {
+font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.web {
+    color: #2196F3;
+}
+/*навигация хэдэр*/
+.title-nav {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.studia-title { 
+        color:#212121;
+}
+.title-nav-text:hover,
+.title-nav-text:focus {
+    color: #2196F3;
+}
+
+.portfolio-title,
+.kontakt-title {
+    color: #212121;
+}
+/*site nav */
+.site-nav {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.site-nav-mail {
+    color: #2196F3;
+}
+.site-nav-mail:hover,
+.site-nav-mail:focus {
+    color: #212121;
+}
+.site-nav-tel {
+    color: #757575;
+}
+
+/*===================================hero==========================*/
+.hero {
+    background-color: #2F303A;
+    color: white;
+}
+
+.hero-title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #ffffff;
+}
+
+.button {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+        background-color:#2196F3;
+        color: white;
+}
+/* НЕ РАЮОЬАЕТ ПЕРЕКЛЮЧЕНИЕ ЦВЕТА*/
+.button:hover,
+.button:focus{
+    background-color:#188CE8;
+    color: #ffffff;
+}
+/*========================HERO==================================================*/
+/*============================section idea 2==============================================*/
+.section-idea-details {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.section-title-main{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;   
+}
+/*===========================================idea============================*/
+/*section-whatarewedoing*/
+/*=================================section team===========================================*/
+.section-team {
+    
+    background-color: #F5F4FA;
+}
+.section-title-team {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height:1.2
+        ;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.section-team-prof {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/*=================================section team===========================================*/
+/*=========================================footer================================================*/
+.footer {
+    background-color: #2F303A;
+    color: #ffffff rpga;
+    cursor: pointer;
+}
+.footer-webstudio {
+
+    font-family: 'Raleway',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;   
+         color: white;
+}
+
+.footer-web {
+    color: #2196F3;
+}
+.section-footer {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+}
+.futer-maps {
+    color: #ffffff;
+}
+
+.footer-mail {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+/*=========================================footer================================================*/
+/*============================PORTFOLIO=============================================*/
+/*button portfolio*/
+
+.button-menu-portfolio{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.03em;
+        background-color:#F5F4FA;
+        color: #212121;
+        cursor: pointer;
+}
+.button-menu-portfolio:hover,
+.button-menu-portfolio:focus {
+background-color: #2196F3;
+color: #ffffff;
+}
+.project-section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.project-section-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.03em;
+        color: #757575;
+}

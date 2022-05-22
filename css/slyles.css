@@ -3,6 +3,7 @@
     --primery-text-color: #757575;
     --title-text-color: #212121;
     --color-logo: #2196F3;
+    --color-bacgraund-hovfut:#2F303A;
     --font-family: 'Raleway', sans-serif;
     --font-family: 'Roboto', sans-serif;
 }
@@ -17,28 +18,25 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #E5E5E5;
-    color: #757575;
-    position: absolute;
+    color:var(--primery-text-color);
 }
 /*title heder*/
 .header-main {
-    background-color: white;
+    background-color: #ffffff;
 }
 .section-title {
-    color: #212121;
+    color:var(--title-text-color);
 }
 /*логотип*/
 .logo {
 font-family: 'Raleway',sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    color: #000000;
 }
 .web {
-    color: #2196F3;
+    color:var(--color-logo);
 }
 /*навигация хэдэр*/
 .title-nav {
@@ -48,47 +46,45 @@ font-family: 'Raleway',sans-serif;
         letter-spacing: 0.02em;
 }
 .studia-title { 
-        color:#212121;
+        color:var(--title-text-color);
 }
 .title-nav-text {
-        font-weight: 500;
         font-size: 14px;
         line-height: 1.1;
         letter-spacing: 0.02em;
     
-        color: #212121;
+        color:var(--title-text-color);
 }
 .title-nav-text:hover,
 .title-nav-text:focus {
-    color: #2196F3;
+    color:var(--color-logo);
 }
 
 .portfolio-title,
 .kontakt-title {
-    color: #212121;
+    color:var(--title-text-color);
 }
 /*site nav */
 .site-nav {
-        font-weight: 500;
         font-size: 14px;
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
 .site-nav-mail {
-    color: #2196F3;
+    color:var(--primery-text-color);
 }
 .site-nav-mail:hover,
 .site-nav-mail:focus {
-    color: #212121;
+  color:var(--color-logo);  
 }
 .site-nav-tel {
-    color: #757575;
+    color:var(--primery-text-color);
 }
 
 /*===================================hero==========================*/
 .hero {
-    background-color: #2F303A;
-    color: white;
+    background-color:var(--color-bacgraund-hovfut);
+    color: #ffffff;
 }
 
 .hero-title {
@@ -110,8 +106,8 @@ font-family: 'Raleway',sans-serif;
         text-align: center;
         letter-spacing: 0.06em;
         cursor: pointer;
-        background-color:#2196F3;
-        color: white;
+        background-color:var(--color-logo);
+        color: #ffffff;
 }
 .button:hover,
 .button:focus{
@@ -121,30 +117,26 @@ font-family: 'Raleway',sans-serif;
 /*========================HERO==================================================*/
 /*============================section idea 2==============================================*/
 .section-idea-details {
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
-        color: #757575;
+        color:var(--primery-text-color);
 }
 .section-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color:var(--title-text-color);
 }
 .section-title-main{
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;   
+color:var(--title-text-color);
 }
 /*===========================================idea============================*/
 /*section-whatarewedoing*/
@@ -154,50 +146,46 @@ color: #212121;
     background-color: #F5F4FA;
 }
 .section-title-team {
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height:1.2
         ;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color:var(--title-text-color);
 }
 .section-team-prof {
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #757575;
+        color:var(--primery-text-color);
 }
 /*=================================section team===========================================*/
 /*=========================================footer================================================*/
 .footer {
-    background-color: #2F303A;
+    background-color:var(--color-bacgraund-hovfut);
     color: #ffffff rpga;
     cursor: pointer;
 }
 .footer-webstudio {
 
     font-family: 'Raleway',sans-serif;
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0.03em;   
-         color: white;
+         color: #ffffff;
 }
 
 .footer-web {
-    color: #2196F3;
+    color:var(--color-logo);
 }
 .section-footer {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7;
         letter-spacing: 0.03em;
 }
 .futer-maps {
@@ -205,7 +193,7 @@ color: #212121;
 }
 
 .footer-mail {
-    color: rgba(255, 255, 255, 0.6)
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-tel {
@@ -214,7 +202,6 @@ color: #212121;
 /*=========================================footer================================================*/
 /*============================PORTFOLIO=============================================*/
 /*button portfolio*/
-
 .button-menu-portfolio{
     font-family: inherit;
         font-weight: 500;
@@ -222,27 +209,28 @@ color: #212121;
         line-height: 1.6;
         text-align: center;
         letter-spacing: 0.03em;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         background-color:#F5F4FA;
-        color: #212121;
+        color:var(--title-text-color);
         cursor: pointer;
 }
 .button-menu-portfolio:hover,
 .button-menu-portfolio:focus {
-background-color: #2196F3;
+background-color: var(--color-logo);
 color: #ffffff;
+
 }
 .project-section-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color:var(--title-text-color);
 }
 
 .project-section-text {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.8;
         letter-spacing: 0.03em;
-        color: #757575;
+        color:var(--primery-text-color);
 }

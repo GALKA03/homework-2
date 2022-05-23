@@ -80,6 +80,10 @@ font-family: 'Raleway',sans-serif;
 .site-nav-tel {
     color:var(--primery-text-color);
 }
+.site-nav-tel:hover,
+.site-nav-tel:focus{
+    color: var(--color-logo);
+}
 
 /*===================================hero==========================*/
 .hero {
@@ -145,6 +149,9 @@ color:var(--title-text-color);
     
     background-color: #F5F4FA;
 }
+.section-team-card {
+    background-color: #ffffff;
+}
 .section-title-team {
         font-weight: 500;
         font-size: 16px;
@@ -201,6 +208,11 @@ color:var(--title-text-color);
 }
 /*=========================================footer================================================*/
 /*============================PORTFOLIO=============================================*/
+
+/*main sectiom*/
+.section-main{
+    background-color: #E5E5E5;
+}
 /*button portfolio*/
 .button-menu-portfolio{
     font-family: inherit;
@@ -217,8 +229,12 @@ color:var(--title-text-color);
 .button-menu-portfolio:hover,
 .button-menu-portfolio:focus {
 background-color: var(--color-logo);
-color: #ffffff;
+color: #ffffff;}
+/*progect card section*/
 
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ошибка не меняется фон*/
+.section-project-card {
+    background-color:#ffffff;
 }
 .project-section-title {
     font-weight: 700;

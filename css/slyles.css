@@ -6,6 +6,9 @@
     --color-bacgraund-hovfut:#2F303A;
     --font-family: 'Raleway', sans-serif;
     --font-family: 'Roboto', sans-serif;
+    --bacground-font-waight:#ffffff;
+    --footer-mail-telefon:rgba(255, 255, 255, 0.6);
+
 }
 
 /*сброс таблиц*/
@@ -22,7 +25,7 @@ body {
 }
 /*title heder*/
 .header-main {
-    background-color: #ffffff;
+    background-color:var(--bacground-font-waight)
 }
 .section-title {
     color:var(--title-text-color);
@@ -88,7 +91,7 @@ font-family: 'Raleway',sans-serif;
 /*===================================hero==========================*/
 .hero {
     background-color:var(--color-bacgraund-hovfut);
-    color: #ffffff;
+    color:var(--bacground-font-waight);
 }
 
 .hero-title {
@@ -98,7 +101,7 @@ font-family: 'Raleway',sans-serif;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #ffffff;
+        color:var(--bacground-font-waight);
 }
 
 .button {
@@ -111,12 +114,12 @@ font-family: 'Raleway',sans-serif;
         letter-spacing: 0.06em;
         cursor: pointer;
         background-color:var(--color-logo);
-        color: #ffffff;
+        color:var(--bacground-font-waight);
 }
 .button:hover,
 .button:focus{
     background-color:#188CE8;
-    color: #ffffff;
+    color:var(--bacground-font-waight);
 }
 /*========================HERO==================================================*/
 /*============================section idea 2==============================================*/
@@ -150,7 +153,7 @@ color:var(--title-text-color);
     background-color: #F5F4FA;
 }
 .section-team-card {
-    background-color: #ffffff;
+    background-color:var(--bacground-font-waight);
 }
 .section-title-team {
         font-weight: 500;
@@ -172,7 +175,7 @@ color:var(--title-text-color);
 /*=========================================footer================================================*/
 .footer {
     background-color:var(--color-bacgraund-hovfut);
-    color: #ffffff rpga;
+    color:var(--bacground-font-waight) rpga;
     cursor: pointer;
 }
 .footer-webstudio {
@@ -182,7 +185,7 @@ color:var(--title-text-color);
         font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0.03em;   
-         color: #ffffff;
+         color:var(--bacground-font-waight);
 }
 
 .footer-web {
@@ -196,15 +199,15 @@ color:var(--title-text-color);
         letter-spacing: 0.03em;
 }
 .futer-maps {
-    color: #ffffff;
+    color:var(--bacground-font-waight);
 }
 
 .footer-mail {
-    color: rgba(255, 255, 255, 0.6);
+    color:var(--footer-mail-telefon);
 }
 
 .footer-tel {
-    color: rgba(255, 255, 255, 0.6);
+    color:var(--footer-mail-telefon);
 }
 /*=========================================footer================================================*/
 /*============================PORTFOLIO=============================================*/
@@ -229,12 +232,12 @@ color:var(--title-text-color);
 .button-menu-portfolio:hover,
 .button-menu-portfolio:focus {
 background-color: var(--color-logo);
-color: #ffffff;}
+color:var(--bacground-font-waight)}
 /*progect card section*/
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ошибка не меняется фон*/
 .section-project-card {
-    background-color:#ffffff;
+    background-color:var(--bacground-font-waight);
 }
 .project-section-title {
     font-weight: 700;
